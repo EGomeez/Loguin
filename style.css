@@ -1,0 +1,120 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.datos {
+    display: block;
+    margin: 5px auto;
+    width: 330px;
+    height: 390px;
+    /*   max-width: 60%; */
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px 2px  rgb(139, 139, 242);
+}
+.usuario img {
+    display: flex;
+    right: 10px;
+    float: right;
+    margin: 0 auto;
+    height: 45px;
+    width: 45px;
+    image-rendering: auto;
+    border: 2px solid rgb(139, 139, 242);
+    box-shadow: 1px 1px 30px 1px  rgb(139, 139, 242);
+    border-radius: 10px;
+    justify-content: flex-end;
+    align-items: center; 
+}
+.datos form {
+    position: relative;
+    display: inline-block;
+    min-height: 55vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+form label {
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;   
+    color: beige;
+}
+form input  {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    color: black;
+    background: whitesmoke;
+}
+:placeholder-shown {
+    color: black;
+    background-color: black;
+    box-shadow: 2px 2px 5px 2px  rgb(139, 139, 242);
+}
+input:hover {
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: rgb(139, 139, 242);
+    box-shadow: 2px 2px 5px 2px rgb(139, 139, 242);
+}
+button {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 10px;
+    border: none;
+    align-items: flex-end;
+    width: 100px;
+    border-radius: 30px;
+}
+#boton2 {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 10px;
+    border: none;
+    align-items: flex-end;
+    width: 100px;
+    border-radius: 30px;
+    color: whitesmoke ; 
+    background:  rgb(139, 139, 242);
+}
+button:hover {
+    box-shadow: 2px 2px 5px 2px rgb(139, 139, 242);
+    color: rgb(139, 139, 242);
+    cursor: pointer;
+}
+#boton2:hover {
+    box-shadow: 2px 2px 5px 2px rgb(245, 245, 227);
+}
+p a{
+    position: relative;
+    display: flex;
+    font-size: .8em;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(139, 139, 242);
+}
+p a:hover{
+    color: rgb(171, 171, 241);
+}
